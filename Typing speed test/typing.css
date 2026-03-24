@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.bg-container {
+    background-size: cover;
+    height: 100vh;
+    background-image: linear-gradient(to right, #f3eaff, #dac0ff);
+    
+}
+.main-heading {
+    font-size: 50px;
+    font-weight: bold;
+    color: #690cb0;
+}
+.fire-sentense {
+    color: #3e4c59;
+}
+.clock-img {
+    height: 60px;
+}
+.timer {
+    font-size: 50px;
+}
+.timer-container {
+    color: #323f4b;
+}
+.input-container {
+    background-color: #f2ebfe;
+    border: solid;
+    border-width: 2px;
+    border-color: #dac0ff;
+    border-radius: 10px;
+}
+.quote-display {
+    font-size: 20px;
+}
+
+.submit-button {
+    color: #ffffff;
+    background-color: #690cb0;
+}
+.reset-button {
+    color: #000000;
+    background-color: #ffffff;
+}
+.result {
+    font-size: 20px;
+    color: #323f4b;
+}
+.spinner-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(255, 255, 255, 0.7); /* Semi-transparent white */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999; /* Ensures it sits on top of everything */
+}
+
+
+
+
+
+
+
+
+
+
+
