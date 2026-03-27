@@ -16,3 +16,15 @@ jokeBtnEl.onclick = function() {
         });
 
 }
+
+const url = "https://apis.ccbp.in/jokes/random";
+
+const doNetworkCall = async () => {
+  const response = await fetch(url);
+  const jsonData = await response.json();
+  console.log(jsonData);
+};
+
+const asyncPromise = doNetworkCall();
+// console.log(asyncPromise);
+// doNetworkCall();
